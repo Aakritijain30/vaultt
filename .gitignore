@@ -1,0 +1,80 @@
+# ───────────────────────────────────────────
+#  VAULTT — .gitignore
+# ───────────────────────────────────────────
+
+# ── OS Files ──
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ── Editor & IDE ──
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.sublime-project
+*.sublime-workspace
+.history/
+
+# ── Logs ──
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ── Node (if added later) ──
+node_modules/
+package-lock.json
+yarn.lock
+.npm/
+.yarn/
+
+# ── Environment Variables ──
+.env
+.env.local
+.env.development
+.env.production
+.env*.local
+
+# ── Build Output (if build tools added later) ──
+dist/
+build/
+out/
+.cache/
+.parcel-cache/
+.vite/
+
+# ── Testing ──
+coverage/
+.nyc_output/
+
+# ── Temporary Files ──
+*.tmp
+*.temp
+*.bak
+*.backup
+*.orig
+*~
+
+# ── Archives ──
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# ── Browser Cache (local dev) ──
+.browserslistrc
+
+# ── Misc ──
+.sass-cache/
+.eslintcache
+.stylelintcache
